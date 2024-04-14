@@ -13,7 +13,7 @@ model.eval()
 
 @app.get("/")
 async def read_root():
-    return {"Hello": "World"}
+    return {"message": "to make prediction access /docs and try out."}
 
 def transform_image(image_bytes):
     # Resize and normalize the image
