@@ -8,6 +8,8 @@ $ pip install -r requirements.txt
 $ uvicorn main:app --reload
 ```
 
+
+
 ## Links
-- [API Endpoint](https://mnist-api-d36r.onrender.com/docs)
+- <a href="https://mnist-api-d36r.onrender.com/docs" target="_blank">API Endpoint</a>
 - [Jupyter Notebook](https://github.com/robson-quaresma/pytorch-templates/blob/main/template_mnist.ipynb)
