@@ -35,7 +35,6 @@ async def upload(file: UploadFile = File(...)):
     with torch.no_grad():
         output = model(transformed_image)
 
-    # return {"prediction": output}
     # Get the predicted class
     _, predicted = torch.max(output, 1)
     return {"prediction": predicted.item()}
