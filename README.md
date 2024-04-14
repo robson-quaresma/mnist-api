@@ -10,3 +10,4 @@ $ uvicorn main:app --reload
 
 ## Links
 - [API Endpoint](https://mnist-api-d36r.onrender.com/docs)
+- [Jupyter Notebook](https://github.com/robson-quaresma/pytorch-templates/blob/main/template_mnist.ipynb)
